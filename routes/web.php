@@ -19,3 +19,15 @@ Route::get('/book', function(){
 
   return view('book');
 });
+
+Route::get('/textbook', function () {
+
+
+  return view('textbook');
+});
+
+Route::get('/directory', function () {
+
+
+  return view('directory');
+});

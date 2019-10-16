@@ -13,4 +13,5 @@ let mix = require('laravel-mix');
 
 mix.js('resources/assets/js/app.js', 'public/js')
 .js('resources/assets/js/bookjs/book.js', 'public/js/bookjs')
+.js('resources/assets/js/textbookjs/app.js', 'public/js/textbookjs')
    .sass('resources/assets/sass/app.scss', 'public/css');

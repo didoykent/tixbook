@@ -29,13 +29,13 @@
 
       window.onmessage = function(event){
 	console.log(event)
-	
+
       	if(event.data){
 
 console.log(event.data)
        var token =  event.data
         localStorage.setItem('token', token)
-         
+
 location.reload()
 
 }
